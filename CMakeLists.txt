@@ -11,7 +11,7 @@ set(CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/cmake;${CMAKE_MODULE_PATH}")
 project(segment_infer LANGUAGES CXX)
 
 #### for MNN and OpenCV
-include(${PROJECT_SOURCE_DIR}/cmake/thirdParty.cmake)
+include(${PROJECT_SOURCE_DIR}/cmake/ThirdParty.cmake)
 
 add_subdirectory(modnet)
 add_subdirectory(test)
