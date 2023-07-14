@@ -25,8 +25,6 @@
 
 ### 4. 编译运行
 ```
-cmake -B build        
-cmake --build build --parallel 12      
-./build/test/test       
-
+sh run.sh       
 ```
+
